@@ -2,8 +2,6 @@ from time import sleep
 import speech_recognition as sr
 from pynput.keyboard import Key, Controller
 r = sr.Recognizer()
-r1 = sr.Recognizer()
-mic = sr.Microphone()
  
 keyboard = Controller()
 
